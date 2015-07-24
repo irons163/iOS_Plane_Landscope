@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57312AF1B61B81900307D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312AE1B61B81900307D50 /* main.m */; };
+		B57312B21B61B81900307D50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312B11B61B81900307D50 /* AppDelegate.m */; };
+		B57312B51B61B81900307D50 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312B41B61B81900307D50 /* GameScene.m */; };
+		B57312B71B61B81900307D50 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B57312B61B61B81900307D50 /* GameScene.sks */; };
+		B57312BA1B61B81900307D50 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312B91B61B81900307D50 /* GameViewController.m */; };
+		B57312BD1B61B81900307D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57312BB1B61B81900307D50 /* Main.storyboard */; };
+		B57312BF1B61B81900307D50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57312BE1B61B81900307D50 /* Images.xcassets */; };
+		B57312C21B61B81900307D50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57312C01B61B81900307D50 /* LaunchScreen.xib */; };
+		B57312CE1B61B81A00307D50 /* Try_Plane_LandscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312CD1B61B81A00307D50 /* Try_Plane_LandscopeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57312C81B61B81A00307D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57312A11B61B81800307D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57312A81B61B81900307D50;
+			remoteInfo = Try_Plane_Landscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B57312A91B61B81900307D50 /* Try_Plane_Landscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_Plane_Landscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57312AD1B61B81900307D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57312AE1B61B81900307D50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B57312B01B61B81900307D50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B57312B11B61B81900307D50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B57312B31B61B81900307D50 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B57312B41B61B81900307D50 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B57312B61B61B81900307D50 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B57312B81B61B81900307D50 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B57312B91B61B81900307D50 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B57312BC1B61B81900307D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B57312BE1B61B81900307D50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B57312C11B61B81900307D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B57312C71B61B81A00307D50 /* Try_Plane_LandscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Plane_LandscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57312CC1B61B81A00307D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57312CD1B61B81A00307D50 /* Try_Plane_LandscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Plane_LandscopeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57312A61B61B81900307D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57312C41B61B81A00307D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57312A01B61B81800307D50 = {
+			isa = PBXGroup;
+			children = (
+				B57312AB1B61B81900307D50 /* Try_Plane_Landscope */,
+				B57312CA1B61B81A00307D50 /* Try_Plane_LandscopeTests */,
+				B57312AA1B61B81900307D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57312AA1B61B81900307D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57312A91B61B81900307D50 /* Try_Plane_Landscope.app */,
+				B57312C71B61B81A00307D50 /* Try_Plane_LandscopeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57312AB1B61B81900307D50 /* Try_Plane_Landscope */ = {
+			isa = PBXGroup;
+			children = (
+				B57312B01B61B81900307D50 /* AppDelegate.h */,
+				B57312B11B61B81900307D50 /* AppDelegate.m */,
+				B57312B31B61B81900307D50 /* GameScene.h */,
+				B57312B41B61B81900307D50 /* GameScene.m */,
+				B57312B61B61B81900307D50 /* GameScene.sks */,
+				B57312B81B61B81900307D50 /* GameViewController.h */,
+				B57312B91B61B81900307D50 /* GameViewController.m */,
+				B57312BB1B61B81900307D50 /* Main.storyboard */,
+				B57312BE1B61B81900307D50 /* Images.xcassets */,
+				B57312C01B61B81900307D50 /* LaunchScreen.xib */,
+				B57312AC1B61B81900307D50 /* Supporting Files */,
+			);
+			path = Try_Plane_Landscope;
+			sourceTree = "<group>";
+		};
+		B57312AC1B61B81900307D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57312AD1B61B81900307D50 /* Info.plist */,
+				B57312AE1B61B81900307D50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B57312CA1B61B81A00307D50 /* Try_Plane_LandscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B57312CD1B61B81A00307D50 /* Try_Plane_LandscopeTests.m */,
+				B57312CB1B61B81A00307D50 /* Supporting Files */,
+			);
+			path = Try_Plane_LandscopeTests;
+			sourceTree = "<group>";
+		};
+		B57312CB1B61B81A00307D50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57312CC1B61B81A00307D50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57312A81B61B81900307D50 /* Try_Plane_Landscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57312D11B61B81A00307D50 /* Build configuration list for PBXNativeTarget "Try_Plane_Landscope" */;
+			buildPhases = (
+				B57312A51B61B81900307D50 /* Sources */,
+				B57312A61B61B81900307D50 /* Frameworks */,
+				B57312A71B61B81900307D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try_Plane_Landscope;
+			productName = Try_Plane_Landscope;
+			productReference = B57312A91B61B81900307D50 /* Try_Plane_Landscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57312C61B61B81A00307D50 /* Try_Plane_LandscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57312D41B61B81A00307D50 /* Build configuration list for PBXNativeTarget "Try_Plane_LandscopeTests" */;
+			buildPhases = (
+				B57312C31B61B81A00307D50 /* Sources */,
+				B57312C41B61B81A00307D50 /* Frameworks */,
+				B57312C51B61B81A00307D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57312C91B61B81A00307D50 /* PBXTargetDependency */,
+			);
+			name = Try_Plane_LandscopeTests;
+			productName = Try_Plane_LandscopeTests;
+			productReference = B57312C71B61B81A00307D50 /* Try_Plane_LandscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57312A11B61B81800307D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = irons;
+				TargetAttributes = {
+					B57312A81B61B81900307D50 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B57312C61B61B81A00307D50 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B57312A81B61B81900307D50;
+					};
+				};
+			};
+			buildConfigurationList = B57312A41B61B81800307D50 /* Build configuration list for PBXProject "Try_Plane_Landscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57312A01B61B81800307D50;
+			productRefGroup = B57312AA1B61B81900307D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57312A81B61B81900307D50 /* Try_Plane_Landscope */,
+				B57312C61B61B81A00307D50 /* Try_Plane_LandscopeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57312A71B61B81900307D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57312C21B61B81900307D50 /* LaunchScreen.xib in Resources */,
+				B57312BF1B61B81900307D50 /* Images.xcassets in Resources */,
+				B57312B71B61B81900307D50 /* GameScene.sks in Resources */,
+				B57312BD1B61B81900307D50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57312C51B61B81A00307D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57312A51B61B81900307D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57312BA1B61B81900307D50 /* GameViewController.m in Sources */,
+				B57312B21B61B81900307D50 /* AppDelegate.m in Sources */,
+				B57312B51B61B81900307D50 /* GameScene.m in Sources */,
+				B57312AF1B61B81900307D50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57312C31B61B81A00307D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57312CE1B61B81A00307D50 /* Try_Plane_LandscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57312C91B61B81A00307D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57312A81B61B81900307D50 /* Try_Plane_Landscope */;
+			targetProxy = B57312C81B61B81A00307D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57312BB1B61B81900307D50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57312BC1B61B81900307D50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B57312C01B61B81900307D50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57312C11B61B81900307D50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57312CF1B61B81A00307D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B57312D01B61B81A00307D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57312D21B61B81A00307D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Try_Plane_Landscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B57312D31B61B81A00307D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Try_Plane_Landscope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B57312D51B61B81A00307D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try_Plane_LandscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_Plane_Landscope.app/Try_Plane_Landscope";
+			};
+			name = Debug;
+		};
+		B57312D61B61B81A00307D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Try_Plane_LandscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Try_Plane_Landscope.app/Try_Plane_Landscope";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57312A41B61B81800307D50 /* Build configuration list for PBXProject "Try_Plane_Landscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57312CF1B61B81A00307D50 /* Debug */,
+				B57312D01B61B81A00307D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57312D11B61B81A00307D50 /* Build configuration list for PBXNativeTarget "Try_Plane_Landscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57312D21B61B81A00307D50 /* Debug */,
+				B57312D31B61B81A00307D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B57312D41B61B81A00307D50 /* Build configuration list for PBXNativeTarget "Try_Plane_LandscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57312D51B61B81A00307D50 /* Debug */,
+				B57312D61B61B81A00307D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57312A11B61B81800307D50 /* Project object */;
+}
