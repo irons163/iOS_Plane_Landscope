@@ -16,6 +16,10 @@
 		B57312BF1B61B81900307D50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57312BE1B61B81900307D50 /* Images.xcassets */; };
 		B57312C21B61B81900307D50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57312C01B61B81900307D50 /* LaunchScreen.xib */; };
 		B57312CE1B61B81A00307D50 /* Try_Plane_LandscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312CD1B61B81A00307D50 /* Try_Plane_LandscopeTests.m */; };
+		B57312DD1B61B92800307D50 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B57312DA1B61B92800307D50 /* bg.png */; };
+		B57312DE1B61B92800307D50 /* red-missile.png in Resources */ = {isa = PBXBuildFile; fileRef = B57312DB1B61B92800307D50 /* red-missile.png */; };
+		B57312DF1B61B92800307D50 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B57312DC1B61B92800307D50 /* Spaceship.png */; };
+		B57312E21B61B9F800307D50 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B57312E11B61B9F800307D50 /* GameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		B57312C71B61B81A00307D50 /* Try_Plane_LandscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_Plane_LandscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57312CC1B61B81A00307D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57312CD1B61B81A00307D50 /* Try_Plane_LandscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_Plane_LandscopeTests.m; sourceTree = "<group>"; };
+		B57312DA1B61B92800307D50 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		B57312DB1B61B92800307D50 /* red-missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-missile.png"; sourceTree = "<group>"; };
+		B57312DC1B61B92800307D50 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B57312E01B61B9F800307D50 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		B57312E11B61B9F800307D50 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B57312AB1B61B81900307D50 /* Try_Plane_Landscope */,
+				B57312D71B61B8B200307D50 /* New Group */,
 				B57312CA1B61B81A00307D50 /* Try_Plane_LandscopeTests */,
 				B57312AA1B61B81900307D50 /* Products */,
 			);
@@ -86,6 +96,7 @@
 		B57312AB1B61B81900307D50 /* Try_Plane_Landscope */ = {
 			isa = PBXGroup;
 			children = (
+				B57312D91B61B92800307D50 /* Images */,
 				B57312B01B61B81900307D50 /* AppDelegate.h */,
 				B57312B11B61B81900307D50 /* AppDelegate.m */,
 				B57312B31B61B81900307D50 /* GameScene.h */,
@@ -93,6 +104,8 @@
 				B57312B61B61B81900307D50 /* GameScene.sks */,
 				B57312B81B61B81900307D50 /* GameViewController.h */,
 				B57312B91B61B81900307D50 /* GameViewController.m */,
+				B57312E01B61B9F800307D50 /* GameOverScene.h */,
+				B57312E11B61B9F800307D50 /* GameOverScene.m */,
 				B57312BB1B61B81900307D50 /* Main.storyboard */,
 				B57312BE1B61B81900307D50 /* Images.xcassets */,
 				B57312C01B61B81900307D50 /* LaunchScreen.xib */,
@@ -125,6 +138,23 @@
 				B57312CC1B61B81A00307D50 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B57312D71B61B8B200307D50 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		B57312D91B61B92800307D50 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B57312DA1B61B92800307D50 /* bg.png */,
+				B57312DB1B61B92800307D50 /* red-missile.png */,
+				B57312DC1B61B92800307D50 /* Spaceship.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57312DF1B61B92800307D50 /* Spaceship.png in Resources */,
+				B57312DE1B61B92800307D50 /* red-missile.png in Resources */,
+				B57312DD1B61B92800307D50 /* bg.png in Resources */,
 				B57312C21B61B81900307D50 /* LaunchScreen.xib in Resources */,
 				B57312BF1B61B81900307D50 /* Images.xcassets in Resources */,
 				B57312B71B61B81900307D50 /* GameScene.sks in Resources */,
@@ -228,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57312E21B61B9F800307D50 /* GameOverScene.m in Sources */,
 				B57312BA1B61B81900307D50 /* GameViewController.m in Sources */,
 				B57312B21B61B81900307D50 /* AppDelegate.m in Sources */,
 				B57312B51B61B81900307D50 /* GameScene.m in Sources */,
